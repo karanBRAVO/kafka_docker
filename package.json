@@ -1,0 +1,22 @@
+{
+  "name": "kafka-learn",
+  "version": "1.0.0",
+  "description": "In this, I'm learning apache kafka.",
+  "main": "index.js",
+  "scripts": {
+    "consumer": "node consumer.js",
+    "producer": "node producer.js"
+  },
+  "keywords": [
+    "apache",
+    "kafka",
+    "node",
+    "express"
+  ],
+  "author": "Karan Yadav",
+  "license": "MIT",
+  "dependencies": {
+    "kafkajs": "^2.2.4",
+    "readline-sync": "^1.4.10"
+  }
+}
